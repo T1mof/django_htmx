@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-30 06:37+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\django_htmx\settings.py:101
+msgid "English"
+msgstr "Английский"
+
+#: .\django_htmx\settings.py:102
+msgid "Russian"
+msgstr "Русский"
+
+#: .\templates\base.html:7
+msgid "Books"
+msgstr "Книги"
+
+#: .\templates\base.html:22
+msgid "id"
+msgstr ""
+
+#: .\templates\base.html:22
+#, fuzzy
+#| msgid "Title"
+msgid "title"
+msgstr "Название"
+
+#: .\templates\base.html:23
+#, fuzzy
+#| msgid "Author"
+msgid "author"
+msgstr "Автор"
+
+#: .\templates\base.html:23
+msgid "price"
+msgstr ""
+
+#: .\templates\base.html:24
+#, fuzzy
+#| msgid "Unread"
+msgid "read"
+msgstr "Не прочитана"
+
+#: .\templates\base.html:24
+msgid "ascend"
+msgstr ""
+
+#: .\templates\base.html:25
+msgid "descend"
+msgstr ""
+
+#: .\templates\base.html:30
+msgid "No."
+msgstr "Номер"
+
+#: .\templates\base.html:33
+msgid "id-ascend"
+msgstr ""
+
+#: .\templates\base.html:36
+msgid "id-descend"
+msgstr ""
+
+#: .\templates\base.html:42
+msgid "Title"
+msgstr "Название"
+
+#: .\templates\base.html:45
+msgid "title-ascend"
+msgstr ""
+
+#: .\templates\base.html:48
+msgid "title-descend"
+msgstr ""
+
+#: .\templates\base.html:54
+msgid "Author"
+msgstr "Автор"
+
+#: .\templates\base.html:57
+msgid "author-ascend"
+msgstr ""
+
+#: .\templates\base.html:60
+msgid "author-descend"
+msgstr ""
+
+#: .\templates\base.html:66
+msgid "Price ($)"
+msgstr "Цена (₽)"
+
+#: .\templates\base.html:69
+msgid "price-ascend"
+msgstr ""
+
+#: .\templates\base.html:72
+msgid "price-descend"
+msgstr ""
+
+#: .\templates\base.html:78
+msgid "Status"
+msgstr "Статус"
+
+#: .\templates\base.html:81
+msgid "read-descend"
+msgstr ""
+
+#: .\templates\base.html:84
+msgid "read-ascend"
+msgstr ""
+
+#: .\templates\base.html:90
+msgid "Actions"
+msgstr "Действия"
+
+#: .\templates\base.html:118
+msgid "create_book"
+msgstr ""
+
+#: .\templates\base.html:120
+msgid "update_book_details"
+msgstr ""
+
+#: .\templates\base.html:128
+msgid "book_list_sort"
+msgstr ""
+
+#: .\templates\partial_book_detail.html:24
+#: .\templates\partial_book_update_form.html:22
+msgid "Unread"
+msgstr "Не прочитана"
+
+#: .\templates\partial_book_detail.html:30
+#: .\templates\partial_book_update_form.html:26
+msgid "Read"
+msgstr "Прочитана"
+
+#: .\templates\partial_book_detail.html:40
+msgid "Edit"
+msgstr "Изменить"
+
+#: .\templates\partial_book_detail.html:45
+msgid "Are you sure wish to delete this book?"
+msgstr "Вы уверены, что хотите удалить эту книгу?"
+
+#: .\templates\partial_book_detail.html:46
+msgid "Delete"
+msgstr "Удалить"
+
+#: .\templates\partial_book_update_form.html:35
+msgid "Save"
+msgstr "Сохранить"
+
+#: .\templates\partial_book_update_form.html:40
+msgid "Cancel"
+msgstr "Отменить"
+
+#: .\templates\partial_create_book_form.html:18
+msgid "Add book"
+msgstr "Добавить"

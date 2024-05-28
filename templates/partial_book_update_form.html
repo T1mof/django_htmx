@@ -1,0 +1,43 @@
+{% load i18n %}
+<tr class="{% if book.read %}grey-text{% endif %}">
+    <td class="align-middle text-center ps-2">
+        {{ book.id }}
+    </td>
+
+    <td class="align-middle ps-2">
+        {{ form.title }}
+    </td>
+
+    <td class="align-middle ps-2">
+        {{ form.author }}
+    </td>
+
+    <td class="align-middle text-center">
+        {{ form.price }}
+    </td>
+
+    <td class="align-middle text-center">
+        {% if not book.read %}
+          <button class="table-button status-button btn btn-primary btn-sm" disabled>
+              {% trans 'Unread' %}
+          </button>
+        {% else %}
+            <button class="table-button status-button btn btn-secondary btn-sm" disabled>
+                {% trans 'Read' %}
+            </button>
+        {% endif %}
+    </td>
+
+    <td class="align-middle text-center">
+        <button type="submit" class="table-button any-button btn btn-success btn-sm me-2"
+                hx-post="{% url 'update_book_details' book.id %}" hx-target="closest tr" hx-swap="outerHTML"
+        hx-include="closest tr" >
+            {% trans 'Save' %}
+        </button>
+        <button class="table-button any-button btn btn-warning btn-sm" hx-get="{% url 'book_detail' book.id %}"
+                class="table-button any-button" hx-target="closest tr"
+                hx-swap="outerHTML">
+            {% trans 'Cancel' %}
+        </button>
+    </td>
+</tr>
